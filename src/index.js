@@ -10,7 +10,7 @@ const newSearchQuery = new NewQuery();
 const refs = getRefs();
 
 refs.form.addEventListener("submit", onSubmit);
-refs.moreButton.addEventListener("submit", onGetAndRenderCards);
+refs.moreButton.addEventListener("click", onGetAndRenderCards);
 
 function onSubmit(event) {
   event.preventDefault();
